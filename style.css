@@ -1,1 +1,97 @@
+* {
+    background: #e5f7ee;
+}
 
+::selection {
+    background: #4cb563;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #46b05d; 
+    border-radius: 50px;
+  }
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.main_font {
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 50px;
+    font-size: 45px;
+}
+
+.introduction_name  {
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 80px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    color: #46b05d;
+}
+
+.introduction_details {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    font-family: system-ui;
+    text-align: center;
+    line-height: 35px;
+    color: #545e56;
+}
+
+.ketupat_img {
+    position: relative;
+    top: 200px;
+    animation-name: spin;
+    animation-duration: 9000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.PUASA_name  {
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 350px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+    color: #46b05d;
+}
+
+.PUASA_details {
+    position: relative;
+    top: 370px;
+    font-size: 20px;
+    font-family: system-ui;
+    text-align: center;
+    line-height: 35px;
+    color: #545e56;
+}
